@@ -1,0 +1,15 @@
+.deja-vu-bold {
+    font-size: medium;
+    display:inline;
+    /*color:#4285F4;  <-- google blue*/
+    color:#DB4437; /* <-- google red*/
+    white-space: nowrap;
+    font-weight: bold;
+
+  }
+  .deja-vu {
+    font-size: medium;
+    display:inline;
+    color:#DB4437;
+    white-space: nowrap;
+  }

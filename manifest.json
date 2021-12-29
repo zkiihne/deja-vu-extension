@@ -1,0 +1,20 @@
+{
+  "name": "Deja Vu",
+  "description" : "Annotates search results with timestamps",
+  "version": "1.0",
+  
+  "permissions": [
+    "storage", "history", "scripting"
+  ],
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches":["https://www.google.com/*", "http://www.google.com/*"],
+      "js": ["content_script.js"],
+      "css":["content.css"]
+    }
+  ]
+}
